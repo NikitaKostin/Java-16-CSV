@@ -27,7 +27,7 @@ public class DBService {
     }
 
     @Transactional
-    public void addAll(List<RecordCSV> records) {
+    public void addAll(List<Record> records) {
         records.forEach(r -> entityManager.persist(r));
         //TODO Not sure, that all this operations really needed
         entityManager.flush();

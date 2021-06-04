@@ -1,7 +1,5 @@
 package com.smartsoft.main.model;
 
-import com.smartsoft.main.service.DateConverterService;
-
 import javax.persistence.*;
 import java.util.Date;
 
@@ -26,6 +24,32 @@ public class Record {
     private Date ymdh;
 
     public Record() {
+    }
+
+    public Record(String ssoid,
+                  String ts,
+                  String grp,
+                  String type,
+                  String subtype,
+                  String url,
+                  String orgid,
+                  String formid,
+                  String code,
+                  String ltpa,
+                  String sudirresponse,
+                  Date ymdh) {
+        this.ssoid = ssoid;
+        this.ts = ts;
+        this.grp = grp;
+        this.type = type;
+        this.subtype = subtype;
+        this.url = url;
+        this.orgid = orgid;
+        this.formid = formid;
+        this.code = code;
+        this.ltpa = ltpa;
+        this.sudirresponse = sudirresponse;
+        this.ymdh = ymdh;
     }
 
     public Long getId() {
