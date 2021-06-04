@@ -1,7 +1,6 @@
 package com.smartsoft.main.service;
 
 import com.smartsoft.main.model.Record;
-import com.smartsoft.main.model.RecordCSV;
 import com.smartsoft.main.repository.RecordRepository;
 import com.smartsoft.main.view.SSOIDAndFormIDs;
 import org.springframework.beans.factory.annotation.Autowired;
