@@ -14,7 +14,7 @@ public class CSVService {
 
     public static List<Record> parseCSVFileToRecords() throws IOException {
         var file = new BufferedReader(new FileReader("./test_case.csv"));
-        ArrayList<Record> records = new ArrayList<>();
+        var records = new ArrayList<Record>();
         file.readLine(); // Drop 1-st line
         String line;
         while ((line = file.readLine()) != null) {
