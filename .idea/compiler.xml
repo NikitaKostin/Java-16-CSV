@@ -7,15 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-16-CSV" />
+        <module name="main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="custom-plugin" target="16" />
       <module name="Java-16-CSV" target="16" />
+      <module name="main" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Java-16-CSV" options="-parameters" />
+      <module name="custom-plugin" options="-parameters" />
+      <module name="main" options="-parameters" />
     </option>
   </component>
 </project>
