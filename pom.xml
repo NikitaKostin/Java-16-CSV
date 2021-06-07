@@ -6,7 +6,10 @@
     <groupId>com.smartsoft</groupId>
     <artifactId>main</artifactId>
     <version>0.2.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>rest-CSV</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>main</name>
     <description>Demo project for Smartsoft</description>

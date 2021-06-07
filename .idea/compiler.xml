@@ -2,18 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-16-CSV" />
-        <module name="main" />
+        <module name="rest-CSV" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="custom-plugin" target="16" />
       <module name="Java-16-CSV" target="16" />
       <module name="main" target="16" />
+      <module name="rest-CSV" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +23,7 @@
       <module name="Java-16-CSV" options="-parameters" />
       <module name="custom-plugin" options="-parameters" />
       <module name="main" options="-parameters" />
+      <module name="rest-CSV" options="-parameters" />
     </option>
   </component>
 </project>
