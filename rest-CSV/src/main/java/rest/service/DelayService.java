@@ -22,8 +22,8 @@ public class DelayService {
         var timeKeyMatcher = timeKeyPattern.matcher(value);
         var timeValue = value.split(regex);
 
-        int i = 0;
-        long result = 0L;
+        var i = 0;
+        var result = 0L;
         while(timeKeyMatcher.find()){
             result += timeMap.get(timeKeyMatcher.group()) * Long.parseLong(timeValue[i]);
             i++;

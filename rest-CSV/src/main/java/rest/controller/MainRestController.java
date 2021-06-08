@@ -27,7 +27,7 @@ public class MainRestController {
     @GetMapping(value = "/stat", produces = MediaType.TEXT_PLAIN_VALUE)
     public String getStatusByRunId(@RequestParam String delay) {
         String result = null;
-        long inputDelay = getTimeToMs(delay);
+        var inputDelay = getTimeToMs(delay);
 
         try {
             var delayStatusList = csvService.getListRecords()
