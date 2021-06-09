@@ -10,11 +10,13 @@
         <module name="Java-16-CSV" />
         <module name="untitled" />
         <module name="rest-CSV" />
+        <module name="custom-maven-plugin" />
         <module name="csv" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="csv" target="16" />
+      <module name="custom-maven-plugin" target="16" />
       <module name="custom-plugin" target="16" />
       <module name="Java-16-CSV" target="16" />
       <module name="main" target="16" />
@@ -26,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Java-16-CSV" options="-parameters" />
       <module name="csv" options="-parameters" />
+      <module name="custom-maven-plugin" options="-parameters" />
       <module name="custom-plugin" options="-parameters" />
       <module name="main" options="-parameters" />
       <module name="rest-CSV" options="-parameters" />
