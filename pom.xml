@@ -10,6 +10,7 @@
         <module>rest-CSV</module>
         <module>CSV</module>
         <module>custom-maven-plugin</module>
+        <module>date-parser</module>
     </modules>
     <packaging>pom</packaging>
 
