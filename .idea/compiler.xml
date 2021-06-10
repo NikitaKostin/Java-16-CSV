@@ -33,7 +33,7 @@
       <module name="custom-maven-plugin" options="-parameters" />
       <module name="custom-plugin" options="-parameters" />
       <module name="date-parser" options="-parameters" />
-      <module name="main" options="-parameters" />
+      <module name="main" options="" />
       <module name="rest-CSV" options="-parameters" />
       <module name="untitled" options="-parameters" />
     </option>
