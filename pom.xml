@@ -23,6 +23,7 @@
         <module>CSV</module>
         <module>custom-maven-plugin</module>
         <module>date-parser</module>
+        <module>switch-enum</module>
     </modules>
     <packaging>pom</packaging>
 
