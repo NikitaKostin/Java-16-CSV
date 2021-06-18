@@ -88,5 +88,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.4" level="project" />
     <orderEntry type="module" module-name="main" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />
   </component>
 </module>
