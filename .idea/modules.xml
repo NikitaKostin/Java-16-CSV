@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/custom-maven-plugin/custom-maven-plugin.iml" filepath="$PROJECT_DIR$/custom-maven-plugin/custom-maven-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/date-parser/date-parser.iml" filepath="$PROJECT_DIR$/date-parser/date-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/main.iml" filepath="$PROJECT_DIR$/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/report/report.iml" filepath="$PROJECT_DIR$/report/report.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-CSV/rest-CSV.iml" filepath="$PROJECT_DIR$/rest-CSV/rest-CSV.iml" />
     </modules>
   </component>

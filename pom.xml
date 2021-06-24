@@ -11,6 +11,7 @@
         <module>CSV</module>
         <module>custom-maven-plugin</module>
         <module>date-parser</module>
+        <module>report</module>
     </modules>
     <packaging>pom</packaging>
 
