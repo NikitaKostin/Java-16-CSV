@@ -88,5 +88,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.7" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />
   </component>
 </module>
