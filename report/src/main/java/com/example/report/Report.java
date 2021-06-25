@@ -51,12 +51,12 @@ public class Report {
                 .collect(Collectors.joining("\n"));
 
         return """
-                    Анализ текста
+                "    Анализ текста
                 Всего в тексте слов – %s,
                 Знаков препинания и прочих символов – %s,
                 Пробелов и прочих отступов – %s.
                 Встречаемость сочетаний букв:
-                %s              
+                %s"              
                 """.formatted(words.size(), punctuations, whiteSpaces, wordFreqString);
 
     }
