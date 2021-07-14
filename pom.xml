@@ -12,6 +12,7 @@
         <module>custom-maven-plugin</module>
         <module>date-parser</module>
         <module>docker-rest</module>
+        <module>sql</module>
     </modules>
     <packaging>pom</packaging>
 

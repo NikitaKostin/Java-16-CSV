@@ -3,13 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/csv/Java-16-CSV.iml" filepath="$PROJECT_DIR$/csv/Java-16-CSV.iml" />
-      <module fileurl="file://$PROJECT_DIR$/csv/csv.iml" filepath="$PROJECT_DIR$/csv/csv.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-maven/custom-maven.iml" filepath="$PROJECT_DIR$/custom-maven/custom-maven.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom-maven-plugin/custom-maven-plugin.iml" filepath="$PROJECT_DIR$/custom-maven-plugin/custom-maven-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/date-parser/date-parser.iml" filepath="$PROJECT_DIR$/date-parser/date-parser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/docker-rest/docker-rest.iml" filepath="$PROJECT_DIR$/docker-rest/docker-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/main.iml" filepath="$PROJECT_DIR$/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rest-CSV/rest-CSV.iml" filepath="$PROJECT_DIR$/rest-CSV/rest-CSV.iml" />
     </modules>
   </component>
 </project>
