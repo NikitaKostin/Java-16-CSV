@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="untitled" />
+        <module name="generics" />
         <module name="custom-maven-plugin" />
         <module name="csv" />
         <module name="Java-16-CSV" />
@@ -31,6 +32,7 @@
       <module name="custom-plugin" options="-parameters" />
       <module name="date-parser" options="-parameters" />
       <module name="docker-rest" options="-parameters" />
+      <module name="generics" options="-parameters" />
       <module name="main" options="" />
       <module name="rest-CSV" options="-parameters" />
       <module name="sql" options="-parameters" />

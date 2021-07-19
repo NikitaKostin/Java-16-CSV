@@ -13,6 +13,7 @@
         <module>date-parser</module>
         <module>docker-rest</module>
         <module>sql</module>
+        <module>generics</module>
     </modules>
     <packaging>pom</packaging>
 
