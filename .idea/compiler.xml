@@ -7,14 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="untitled" />
         <module name="generics" />
         <module name="custom-maven-plugin" />
         <module name="csv" />
-        <module name="Java-16-CSV" />
         <module name="date-parser" />
         <module name="rest-CSV" />
         <module name="docker-rest" />
+        <module name="soap" />
         <module name="sql" />
       </profile>
     </annotationProcessing>
@@ -35,6 +34,7 @@
       <module name="generics" options="-parameters" />
       <module name="main" options="" />
       <module name="rest-CSV" options="-parameters" />
+      <module name="soap" options="-parameters" />
       <module name="sql" options="-parameters" />
       <module name="untitled" options="-parameters" />
     </option>
