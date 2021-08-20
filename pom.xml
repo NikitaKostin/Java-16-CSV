@@ -12,6 +12,7 @@
         <module>custom-maven-plugin</module>
         <module>date-parser</module>
         <module>docker-rest</module>
+        <module>soap</module>
         <module>sql</module>
         <module>generics</module>
     </modules>

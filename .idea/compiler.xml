@@ -15,6 +15,7 @@
         <module name="date-parser" />
         <module name="rest-CSV" />
         <module name="docker-rest" />
+        <module name="soap" />
         <module name="sql" />
       </profile>
     </annotationProcessing>
@@ -35,6 +36,7 @@
       <module name="generics" options="-parameters" />
       <module name="main" options="" />
       <module name="rest-CSV" options="-parameters" />
+      <module name="soap" options="-parameters" />
       <module name="sql" options="-parameters" />
       <module name="untitled" options="-parameters" />
     </option>
