@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="untitled" />
+        <module name="optional-collectors" />
         <module name="generics" />
         <module name="custom-maven-plugin" />
         <module name="csv" />
@@ -35,6 +36,7 @@
       <module name="docker-rest" options="-parameters" />
       <module name="generics" options="-parameters" />
       <module name="main" options="" />
+      <module name="optional-collectors" options="-parameters" />
       <module name="rest-CSV" options="-parameters" />
       <module name="soap" options="-parameters" />
       <module name="sql" options="-parameters" />
