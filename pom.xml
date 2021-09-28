@@ -28,6 +28,7 @@
         <module>sql</module>
         <module>generics</module>
         <module>optional-collectors</module>
+        <module>patterns</module>
     </modules>
     <packaging>pom</packaging>
 

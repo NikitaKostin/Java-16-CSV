@@ -9,25 +9,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="untitled" />
         <module name="optional-collectors" />
-        <module name="generics" />
         <module name="custom-maven-plugin" />
         <module name="csv" />
+        <module name="patterns" />
+        <module name="CSV" />
+        <module name="docker-rest" />
+        <module name="sql" />
+        <module name="generics" />
         <module name="Java-16-CSV" />
         <module name="date-parser" />
         <module name="rest-CSV" />
-        <module name="docker-rest" />
         <module name="soap" />
-        <module name="sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="custom-plugin" target="16" />
+      <module name="generics (2)" target="14" />
       <module name="Java-16-CSV" target="16" />
+      <module name="patterns-spring" target="14" />
       <module name="untitled" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CSV" options="-parameters" />
       <module name="Java-16-CSV" options="-parameters" />
       <module name="csv" options="-parameters" />
       <module name="custom-maven-plugin" options="-parameters" />
@@ -35,8 +40,11 @@
       <module name="date-parser" options="-parameters" />
       <module name="docker-rest" options="-parameters" />
       <module name="generics" options="-parameters" />
+      <module name="generics (2)" options="-parameters" />
       <module name="main" options="" />
       <module name="optional-collectors" options="-parameters" />
+      <module name="patterns" options="-parameters" />
+      <module name="patterns-spring" options="-parameters" />
       <module name="rest-CSV" options="-parameters" />
       <module name="soap" options="-parameters" />
       <module name="sql" options="-parameters" />

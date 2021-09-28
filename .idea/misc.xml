@@ -5,11 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/generics/pom2.xml" />
+        <option value="$PROJECT_DIR$/generics/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/custom-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/patterns-spring/pom.xml" />
       </set>
     </option>
   </component>
