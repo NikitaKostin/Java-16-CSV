@@ -29,6 +29,7 @@
         <module>generics</module>
         <module>optional-collectors</module>
         <module>patterns</module>
+        <module>annotation</module>
     </modules>
     <packaging>pom</packaging>
 
